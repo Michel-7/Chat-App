@@ -1,0 +1,10 @@
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}
+.typing {
+  position: absolute;
+  left: 5%;
+  bottom: 1%;
+}
