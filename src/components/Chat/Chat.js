@@ -21,7 +21,7 @@ const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [users, setUsers] = useState([]);
   const [nameIsTyping, setNameIsTyping] = useState("");
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = "https://chat-app-server-8k72.onrender.com:10000";
   const navigate = useNavigate();
 
   useEffect(() => {
