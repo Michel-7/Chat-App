@@ -21,7 +21,7 @@ const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [users, setUsers] = useState([]);
   const [nameIsTyping, setNameIsTyping] = useState("");
-  const ENDPOINT = "https://chat-app-server-m304.onrender.com:10000";
+  const ENDPOINT = "https://chat-app-server-m304.onrender.com/";
   const navigate = useNavigate();
 
   useEffect(() => {
